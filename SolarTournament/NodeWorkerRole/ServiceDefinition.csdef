@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ServiceDefinition name="SolarTournament" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2012-10.1.8">
-  <WorkerRole name="NodeHost" vmsize="Small">
+  <WorkerRole name="NodeHost" vmsize="ExtraSmall">
     <Startup>
       <Task commandLine="startup.cmd &gt; startup.log 2&gt;&amp;1" executionContext="elevated" taskType="simple" />
     </Startup>
